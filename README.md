@@ -1,10 +1,10 @@
 # Dev2vec
 This is a replication package for the article 
-<a href="https://arxiv.org/abs/2207.05132"><strong>Dev2vec: Representing Domain Expertise of Developers in an Embedding Space</strong></a>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0950584923000721"><strong>Dev2vec: Representing Domain Expertise of Developers in an Embedding Space</strong></a>
     
 The paper aims to encode the expertise of developers, learned from different source of information, into embedding vectors.<br />
 These vectors are learned based on doc2vec model that is trained on three different sources of information: repository meta data, issue resolving history and API calls.<br />
-![](https://github.com/ExpertiseModel/EmbeddingVectors/blob/main/detailed_diagram.jpg)
+![](https://github.com/ferdorart/EmbeddingVectors/blob/main/detailed_diagram.jpg)
 
 
 We name these models: dev2vec:repos, dev2vec:Issues and dev2vec:APIs <br />
